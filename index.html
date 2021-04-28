@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <title>To Do</title>
+</head>
+<body>
+    <div id="container">
+        <header><h1>
+        To Do
+        </h1>
+        <form id="form">
+        <input id="naziv" name="naziv" type="text" placeholder="Naziv..">
+        <input id="opis" name="opis" type="text" placeholder="Opis..">
+        <input id="submit" name="submit" type="submit">
+        </form></header>
+        <section id="content">
+        <ul id="lista">
+            <li class="item">
+                <h3>
+                    <span>Naziv zadatka</span>
+                    <span class="razmak">
+                        <a onclick="edit()" href="#">
+                            <i class="far fa-edit"></i>
+                        </a>
+                        <a onclick="del()" href="#">
+                            <i class="far fa-trash-alt"></i>
+                        </a>
+                        <a onclick="done()" href="#">
+                            <i class="fas fa-check"></i>
+                        </a>
+                </span>
+                </h3>
+                <p class="opis">
+                Ovo je nekakav opis zadatka bezveze koji kao treba biti negdje. Ovo je nekakav opis zadatka bezveze koji kao treba biti negdje.
+                </p>
+            </li>
+            <hr>
+        </ul>
+        </section>
+        <footer>&copy; 2021.</footer>
+        </div>
+        <script src="script.js"></script>        
+</body>
+</html>

@@ -1,0 +1,105 @@
+#container{
+	font-family: Verdana;
+}
+
+header{
+	width: 100%;
+	text-align: left;
+	background: #06111C;
+}
+
+h1{
+	margin: 0 0 0 0;
+	padding: 3vh;
+	color: white;
+	font-size: 9vh;
+	display: inline-block;
+}
+
+#content{
+	width: 100%;
+	background: #FFEB4D;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	color: #121317;
+	font-size: 3vh;
+}
+
+footer{
+	background: #BB2020;
+	height: 10vh;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+.item{
+	padding: 10px;
+	width: 100%;
+}
+
+.opis{
+	width: 100%;
+}
+
+.razmak{
+	margin-right: 0px;
+	float: right;
+}
+
+h3, p{
+	width: 100%;
+}
+
+hr{
+	border: solid #BB2020 1px;
+	width: 100%;
+	background: #BB2020;
+	margin-left: 0;
+}
+
+.done{
+	text-decoration: line-through;
+}
+
+form{
+	display:inline-block;
+	align-content: center;
+	font-family: Verdana;
+	padding: 5px;
+}
+
+#naziv{
+	background: white;
+	border:none;
+	padding: 5px;
+	vertical-align: super;
+	height: 20px;
+}
+
+#opis{
+	background: white;
+	border:none;
+	padding: 5px;
+	vertical-align: super;
+	height: 20px;
+}
+
+#submit{
+	background: white;
+	border:none;
+	padding: 7px;
+	vertical-align: super;
+	background: #FFEB4D;
+}
+
+#submit:hover{
+	background: #BB2020;
+}
+
+i{
+	padding: 5px;
+}
